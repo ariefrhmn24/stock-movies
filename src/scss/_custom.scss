@@ -1,0 +1,63 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#cont-outer {
+  padding: 0.5% 5%;
+}
+
+#fs-header {
+  font-size: 18px;
+}
+
+.stock-movie > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.image-cont {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-cont:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-cont:hover .hover-titles {
+	opacity: 1;
+}
+
+.hover-titles {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal-content { 
+  background-color: transparent !important;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
